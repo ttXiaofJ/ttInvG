@@ -34,10 +34,10 @@ export default class GestInven{
     }
 
     listarProducto(){
-            if (this.productos.length === 0){
-                console.log("No hay productos.");
-            } else {
-                this.productos.forEach(producto => console.log(producto.mostrarDetalle()));
-            }
+        if (this.productos.length === 0){
+            console.log("No hay productos.");
+        } else {
+            this.productos.forEach(producto => console.log(producto.mostrarDetalle()));
         }
+    }
 }
