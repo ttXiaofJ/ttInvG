@@ -23,6 +23,6 @@ gestInven.eliminarProducto(prod3);
 console.log("Prod");
 gestInven.listarProducto();
 
-gestInven.actualizarProducto(prod4.id, (nombre: "Tablet", garantia: 24));
+gestInven.actualizarProducto(prod4.id, {nombre: "Tablet", garantia: 24});
 console.log("Prod");
 gestInven.listarProducto();
